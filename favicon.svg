@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="31" fill="#25344F" stroke="#D5B893" stroke-width="2.5"/>
+  <text x="32" y="41" font-family="Georgia, 'Playfair Display', serif" font-size="30" font-weight="700" text-anchor="middle" fill="#D5B893">M</text>
+  <path d="M40 44 Q46 47 51 43" stroke="#D5B893" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+</svg>
