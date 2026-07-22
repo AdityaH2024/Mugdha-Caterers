@@ -167,21 +167,29 @@
 
   var html = '';
   MUGDHA_MENU.forEach(function (cat, idx) {
-    var icon = ICONS[idx % ICONS.length];
     var itemsHtml = cat.items.map(function (item) {
       return '<div class="menu-dish">' + esc(item) + '</div>';
     }).join('');
     html +=
       '<div class="menu-cat-card" id="cat-' + cat.id + '">' +
         '<button class="menu-cat-head" aria-expanded="false" aria-controls="body-' + cat.id + '">' +
-          '<div class="menu-cat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">' + icon + '</svg></div>' +
+
+          '<div class="menu-cat-icon">' +
+              '<img src="' + cat.image + '" alt="' + esc(cat.name) + '">' +
+          '</div>' +
+
           '<div class="menu-cat-title"><h3>' + esc(cat.name) + '</h3><span>' + esc(cat.subtitle || '') + '</span></div>' +
+
           '<span class="menu-cat-count-inline" style="font-size:0.78rem;color:var(--text-light);margin-right:0.6rem;">' + cat.items.length + ' items</span>' +
+
           '<svg class="menu-cat-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6,9 12,15 18,9"/></svg>' +
+
         '</button>' +
+
         '<div class="menu-cat-body" id="body-' + cat.id + '">' +
           '<div class="menu-cat-body-inner">' + itemsHtml + '</div>' +
         '</div>' +
+
       '</div>';
   });
   container.innerHTML = html;

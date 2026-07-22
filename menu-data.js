@@ -10,6 +10,7 @@ var MUGDHA_MENU = [
     id: 'welcome-drinks',
     name: 'Welcome Drinks',
     subtitle: 'A refreshing start for every guest',
+    image: 'Welcome Drinks.png',
     items: [
       'Rose Sharbat', 'Kokam Sharbat', 'Limbu Sharbat', 'Kairi Panha',
       'Orange Rasna', 'Pineapple Rasna', 'Lemon Rasna', 'Lassi', 'Jal Jeera'
@@ -19,6 +20,7 @@ var MUGDHA_MENU = [
     id: 'soups',
     name: 'Soups',
     subtitle: 'Warm starters before the feast',
+    image: 'Soups.png',
     items: [
       'Tomato Soup', 'Sweet Corn Soup', 'Manchow Soup',
       'Veg Hot & Sour Soup', 'Veg Clear Soup', 'Palak Soup'
@@ -28,6 +30,7 @@ var MUGDHA_MENU = [
     id: 'starters',
     name: 'Starters',
     subtitle: 'Live counters & plated bites',
+    image: 'Starters.png',
     items: [
       'Veg Manchurian', 'Paneer Chilli', 'Hara Bhara Kabab', 'Corn Kabab',
       'Cutlet / Tikki', 'Paneer Tikka', 'Veg Spring Roll'
@@ -35,8 +38,9 @@ var MUGDHA_MENU = [
   },
   {
     id: 'vegetables',
-    name: 'Vegetables',
+    name: 'Bhaji / Vegetables',
     subtitle: 'Gravy & dry preparations',
+    image: 'Vegetables.png',
     items: [
       'Paneer Butter Masala', 'Shahi Paneer', 'Matar Paneer', 'Palak Paneer',
       'Paneer Kolhapuri', 'Malai Kofta', 'Kaju Masala', 'Chole Masala',
@@ -49,6 +53,7 @@ var MUGDHA_MENU = [
     id: 'dal',
     name: 'Dal',
     subtitle: 'The comfort of a home-style thali',
+    image: 'Dal.png',
     items: [
       'Dal Tadka', 'Dal Fry', 'Dal Makhani', 'Sadi Dal', 'Gujarati Kadhi',
       'Sadi Kadhi', 'Sambar', 'Katachi Amti'
@@ -58,6 +63,7 @@ var MUGDHA_MENU = [
     id: 'rice',
     name: 'Rice',
     subtitle: 'From plain steamed to festive pulav',
+    image: 'Rice.png',
     items: [
       'Sadha Bhat (Plain Rice)', 'Jeera Rice', 'Masala Bhat', 'Veg Pulav',
       'Matar Pulav', 'Mugdal Khichdi', 'Paneer Pulav', 'Veg Biryani', 'Tava Pulav'
@@ -65,8 +71,9 @@ var MUGDHA_MENU = [
   },
   {
     id: 'breads',
-    name: 'Indian Breads',
+    name: 'Roti / Breads',
     subtitle: 'Fresh off the tava, live counter',
+    image: 'Indian Breads.png',
     items: [
       'Chapati', 'Phulka', 'Puri', 'Methi Puri', 'Khasta Puri', 'Bajra Roti',
       'Tandoori Roti', 'Naan', 'Tava Paratha', 'Rumali Roti'
@@ -76,12 +83,14 @@ var MUGDHA_MENU = [
     id: 'chinese',
     name: 'Chinese',
     subtitle: 'Indo-Chinese live counter',
+    image: 'Chinese.png',
     items: ['Veg Fried Rice', 'Schezwan Rice', 'Hakka Noodles', 'Veg Manchurian Gravy', 'Veg Spring Roll']
   },
   {
     id: 'breakfast',
     name: 'Breakfast',
     subtitle: 'For morning functions & haldi ceremonies',
+    image: 'Breakfast.png',
     items: [
       'Poha with Sev & Lemon', 'Upma with Sev & Lemon', 'Idli with Chutney & Sambar',
       'Medu Vada with Chutney & Sambar', 'Batata Vada', 'Samosa', 'Kachori',
@@ -92,6 +101,7 @@ var MUGDHA_MENU = [
     id: 'chaat',
     name: 'Chaat Counter',
     subtitle: 'A lively evening favourite',
+    image: 'Chaat Counter.png',
     items: [
       'Pani Puri', 'Bhel Puri', 'Sev Papdi Chaat', 'Aloo Tikki Chaat',
       'Dahi Vada', 'Ragda Pattice', 'Sweet Corn Bhel'
@@ -99,20 +109,23 @@ var MUGDHA_MENU = [
   },
   {
     id: 'fasting',
-    name: 'Fasting Menu',
+    name: 'Upvas Specials',
     subtitle: 'Upvas specials for religious occasions',
+    image: 'Fasting Menu.png',
     items: ['Sabudana Vada', 'Sabudana Khichdi', 'Bhagar', 'Shengdana Amti (Peanut Curry)', 'Batata Wafers']
   },
   {
     id: 'fruit-stall',
     name: 'Fruit Stall',
     subtitle: 'Fresh seasonal fruit, cut & served',
+    image: 'Fruit Stall.png',
     items: ['Apple / Papaya', 'Banana / Chikoo', 'Watermelon / Muskmelon']
   },
   {
     id: 'desserts',
     name: 'Desserts',
     subtitle: 'A sweet finish, made fresh',
+    image: 'Desserts.png',
     items: [
       'Gulab Jamun', 'Jalebi', 'Motichoor Ladoo', 'Shrikhand', 'Aamrakhand',
       'Basundi', 'Rabdi', 'Sitafal Rabdi', 'Mango Rabdi', 'Puran Poli',
@@ -123,6 +136,7 @@ var MUGDHA_MENU = [
     id: 'ice-cream',
     name: 'Ice Cream',
     subtitle: 'A cool close to the celebration',
+    image: 'Ice Cream.png',
     items: ['Vanilla with Chocolate Sauce', 'Butterscotch', 'Strawberry', 'Mango', 'Pista']
   }
 ];
