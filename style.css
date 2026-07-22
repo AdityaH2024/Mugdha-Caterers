@@ -212,7 +212,19 @@ h1, h2, h3, h4 { font-family: var(--font-h); font-weight: 600; color: var(--navy
   border-bottom: 1px solid var(--line);
 }
 .nav-mobile a.active { color: var(--maroon); }
-.nav-mobile .btn { margin-top: 1.3rem; }
+.nav-mobile .btn{
+    margin-top:1.3rem;
+    color:#fff !important;
+}
+
+.nav-mobile .btn.btn-navy{
+    color:#fff !important;
+}
+
+.nav-mobile .btn svg{
+    stroke:#fff !important;
+    fill:none;
+}
 
 @media (min-width: 960px) {
   .nav-links { display: flex; }
@@ -669,47 +681,3 @@ textarea { resize: vertical; min-height: 90px; }
 
 }
 
-/* Mobile Menu Call Button */
-.mobile-menu .nav-call,
-.mobile-nav .nav-call {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-
-    width: 100%;
-
-    background: #3B1832;
-    color: #FFFFFF !important;
-
-    padding: 14px 18px;
-
-    border-radius: 12px;
-
-    text-decoration: none;
-
-    font-weight: 600;
-
-    border: none;
-}
-
-.mobile-menu .nav-call i,
-.mobile-menu .nav-call svg,
-.mobile-nav .nav-call i,
-.mobile-nav .nav-call svg {
-
-    color: #FFFFFF !important;
-    stroke: #FFFFFF !important;
-
-    width: 18px;
-    height: 18px;
-
-    flex-shrink: 0;
-}
-
-.mobile-menu .nav-call span,
-.mobile-nav .nav-call span {
-
-    color: #FFFFFF !important;
-}
